@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.netbeans.api:org-openide-util-lookup:RELEASE80">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.api/org-openide-util-lookup/RELEASE80/ae3673a0268f1e34fc7c1e8b56f805036de914bb/org-openide-util-lookup-RELEASE80.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.api/org-openide-util-lookup/RELEASE80/728d56500d02ced46bf2b4c19c3281b81440d462/org-openide-util-lookup-RELEASE80-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

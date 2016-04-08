@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kenai:simplevalidation:1.10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kenai/simplevalidation/1.10/a7ea1c4f62435f7639a69db0df7369a154ed45a5/simplevalidation-1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kenai/simplevalidation/1.10/29f02d42a8631799dafa3ce0a717e149c3f00009/simplevalidation-1.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

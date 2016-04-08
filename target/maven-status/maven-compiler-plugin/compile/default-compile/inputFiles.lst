@@ -1,0 +1,16 @@
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/CookieStore.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/MessageHandlerImpl.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/HandlerEntry.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/StateType.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/HttpRequestBuilder.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/SslBootstrapCache.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/Initializer.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/RequestBuilder.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/ResponseFuture.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/RequestInfo.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/HttpClient.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/HttpClientBuilder.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/RequestInterceptor.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/ResponseHandler.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/ActivityMonitor.java
+/Users/andrew/Development/netty-http-client/netty-http-client/src/main/java/com/mastfrog/netty/http/client/State.java
