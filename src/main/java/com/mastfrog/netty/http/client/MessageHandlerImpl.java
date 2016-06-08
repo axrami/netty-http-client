@@ -245,7 +245,6 @@ final class MessageHandlerImpl extends ChannelInboundHandlerAdapter {
     }
 
     void sendFullResponse(ChannelHandlerContext ctx) {
-//        System.out.println("sendFullResponse Fired");
         RequestInfo info = ctx.channel().attr(HttpClient.KEY).get();
         if (info != null && info.dontAggregate) {
             return;
@@ -258,8 +257,16 @@ final class MessageHandlerImpl extends ChannelInboundHandlerAdapter {
         }
         // RIGHT HERE
         // removed state.aggregateContent.readableBytes() > 0 to allow error response w/o body
-        final boolean isInternalServerErrorResponse = state.resp.getStatus().code() == HttpResponseStatus.INTERNAL_SERVER_ERROR.code();
-        final boolean isOKResponse = state.resp.getStatus().code() == HttpResponseStatus.OK.code();
+        final boolean isInternalServerErrorResponse;
+        final boolean isOKResponse;
+        if (state.resp != null ) {
+            isInternalServerErrorResponse = state.resp.getStatus().code() == HttpResponseStatus.INTERNAL_SERVER_ERROR.code();
+            isOKResponse = state.resp.getStatus().code() == HttpResponseStatus.OK.code();
+        } else {
+            System.out.println("%%%%%% Something broke none standard response from server %%%%%%%% ");
+            isInternalServerErrorResponse = true;
+            isOKResponse = false;
+        }
         final boolean isBodyHasContent = state.aggregateContent.readableBytes() > 0;
         if ((info.r != null || info.handle.has(type)) && !state.fullResponseSent && (isInternalServerErrorResponse || isOKResponse || isBodyHasContent) ) {
             state.resp.getStatus().code();
