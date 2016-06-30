@@ -244,7 +244,7 @@ final class MessageHandlerImpl extends ChannelInboundHandlerAdapter {
 //        }
     }
 
-    void sendFullResponse(ChannelHandlerContext ctx) {
+    void sendFullResponse(ChannelHandlerContext ctx) throws NullPointerException {
         RequestInfo info = ctx.channel().attr(HttpClient.KEY).get();
         if (info != null && info.dontAggregate) {
             return;
@@ -263,7 +263,7 @@ final class MessageHandlerImpl extends ChannelInboundHandlerAdapter {
             isInternalServerErrorResponse = state.resp.getStatus().code() == HttpResponseStatus.INTERNAL_SERVER_ERROR.code();
             isOKResponse = state.resp.getStatus().code() == HttpResponseStatus.OK.code();
         } else {
-            System.out.println("%%%%%% Something broke none standard response from server %%%%%%%% ");
+            System.out.println("%%%%%% Something broke none standard response from server %%%%%%%% ::  " + state);
             isInternalServerErrorResponse = true;
             isOKResponse = false;
         }
